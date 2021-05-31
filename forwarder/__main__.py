@@ -8,18 +8,14 @@ from forwarder import API_KEY, OWNER_ID, WEBHOOK, IP_ADDRESS, URL, CERT_PATH, PO
 from forwarder.modules import ALL_MODULES
 
 PM_START_TEXT = """
-Hey {}, I'm {}!
-I'm a bot used to forward messages from one chat to another.
-
-To obtain a list of commands, use /help.
+Olá {}, eu sou {}!
+Este bot é destinado para envio de listas de Divulgação do Listão do Bem. Se você tem algo de bom para contribuir com seu canal/grupo, vem compartilhar junto com a gente! Inscreva-se aqui: @listaodobembot
 """
 
 PM_HELP_TEXT = """
-Here is a list of usable commands:
- - /start : Starts the bot.
- - /help : Sends you this help message.
-
-just send /id in private chat/group/channel and i will reply it's id.
+Aqui está a lista de comandos:
+ - /start : iniciar o bot.
+ - /help : envia essa mensagem.
 """
 
 for module in ALL_MODULES:
