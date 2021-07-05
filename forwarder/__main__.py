@@ -10,12 +10,16 @@ from forwarder.modules import ALL_MODULES
 PM_START_TEXT = """
 Olá {}, eu sou {}!
 Este bot é destinado para envio de listas de Divulgação do Listão do Bem. Se você tem algo de bom para contribuir com seu canal/grupo, vem compartilhar junto com a gente! Inscreva-se aqui: @listaodobembot
+
+Developed by @Andre_Ribas
 """
 
 PM_HELP_TEXT = """
 Aqui está a lista de comandos:
  - /start : iniciar o bot.
  - /help : envia essa mensagem.
+ 
+ Developed by @Andre_Ribas
 """
 
 for module in ALL_MODULES:
