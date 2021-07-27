@@ -52,8 +52,8 @@ def help(update, context):
 
 
 def main():
-    start_handler = CommandHandler("start", start, filters=Filters.user(OWNER_ID), run_async=False)
-    help_handler = CommandHandler("help", help, filters=Filters.user(OWNER_ID), run_async=False)
+    start_handler = CommandHandler("start", start, run_async=False)
+    help_handler = CommandHandler("help", help, run_async=False)
     dispatcher.add_handler(start_handler)
     dispatcher.add_handler(help_handler)
 
