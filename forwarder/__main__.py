@@ -8,9 +8,6 @@ from forwarder import API_KEY, OWNER_ID, WEBHOOK, IP_ADDRESS, URL, CERT_PATH, PO
 from forwarder.modules import ALL_MODULES
 
 PM_START_TEXT = """
-Olá {}, eu sou {}!
-Este bot é destinado para envio de listas de Divulgação do Listão do Bem. Se você tem algo de bom para contribuir com seu canal/grupo, vem compartilhar junto com a gente! Inscreva-se aqui: @listaodobembot
-
 Developed by @Andre_Ribas
 """
 
